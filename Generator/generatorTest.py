@@ -3,8 +3,8 @@
 # file: generatorTest.py
 
 temp = (i for i in range(5))
-for i, j in enumerate(temp):
-    print(i, j)
+for index, j in enumerate(temp):
+    print(index, j)
 
 
 # 使用yield关键字，写一个fibonacci
